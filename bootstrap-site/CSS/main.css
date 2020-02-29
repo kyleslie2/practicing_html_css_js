@@ -1,0 +1,145 @@
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto', Arial,  sans-serif;
+    padding: 10px;
+    /*serif font for all headings*/
+}
+
+
+p {
+    font-family: 'Roboto Slab', "Times New Roman", serif;
+    /*sans serif for all body*/
+}
+
+.navbar {
+    color: darkblue;
+}
+
+/*-----Footer--------------------------------------------------------*/
+
+footer {
+    float: clear;
+    margin-top: 50px;
+}
+#home:hover {
+    color: #F9F259;
+}
+#facebook:hover {
+    color: #3b5998;
+}
+#twitter:hover {
+    color: #0084b4;
+}
+#instagram:hover {
+    color: #8a3ab9;
+}
+#reddit:hover {
+    color: #FF4500;
+}
+.nav-item:hover {
+    color: #F9F259;
+}
+
+.iconic {
+    color: black;
+    padding: 3px;
+}
+
+
+/*-----Home page---------------------------------------------------------*/
+.jumbotron {
+    background-color: #F9F259;
+    /*RED*/
+}
+#homeBody {
+    background-color: #6BA3F2;
+    /*BLUE*/
+}
+#maintext {
+    padding: 25px;
+    font-size: larger;
+
+}
+#mainPic {
+    float: left;
+    width: 40%;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+/*-----Help page---------------------------------------------------------*/
+
+.card {
+    padding: 5px;
+    margin: 20px;
+}
+
+#helpBody {
+    background-color: #F99C7A;
+}
+
+.card {
+    background-color: #C155DB;
+    transition: all .2s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1);
+    background-color: #6BA3F2;
+}
+.text-muted {
+    color: black;
+}
+
+/*-----Contact page---------------------------------------------------------*/
+#contactBody {
+    background-color: #6BA3F2;
+}
+
+#map {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#formButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}
+

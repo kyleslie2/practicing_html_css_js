@@ -1,0 +1,11 @@
+
+
+@mixin equalSpaced( $num_of_cols, $gutter, $width:100%  ){
+  width: ( $width - ( $gutter * ($num_of_cols - 1) ) ) / $num_of_cols;
+  margin-left: $gutter;
+  float: left;
+  &:first-child{
+    margin-left: 0;
+  }
+
+}

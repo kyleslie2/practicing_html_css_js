@@ -1,0 +1,71 @@
+/*
+These images belong to: 
+Markus Spiske - https://500px.com/markusspiske 
+Yinan Chen - https://500px.com/webmaster85 
+Fahim Akhter - https://500px.com/fahimakhter
+*/
+
+body {
+    background: coral;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    float: left;
+}
+
+li {
+    float: left;
+    margin-top: 3%;
+}
+
+picture {
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+img:hover {
+    transform: scale(1.2);
+    z-index: 10;    
+}
+
+@media screen and (min-width: 600px) {
+    /*2 column layout*/
+    li {
+        width: 50%;
+    }
+    img:hover {
+        transform:scale(0.9);
+        z-index: 10;
+    }
+    body {
+        background: #974768;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    /*4 column layout*/
+    li {
+        width: 25%;
+    }
+    img {
+        transition: transform 2s ease-in-out;
+    }
+    img:hover {
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+    body {
+        background: maroon;
+    }
+}
+
+

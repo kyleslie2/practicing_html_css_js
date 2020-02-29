@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: #2D4772;
+}
+
+$color-main: #333;
+$color-light: #999;
+$color-accent: #ea4c89;
+
+body{
+  background: $color-accent;
+}

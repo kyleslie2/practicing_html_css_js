@@ -1,0 +1,31 @@
+table {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #a1c4c4;
+}
+
+h3, p {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #464949;
+    background-color: #9eb2b2;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin:10px;
+  color: white;
+  background-color: #317f7f;
+  width: 70px;
+  height: 40px;
+  font-size: 14px
+}

@@ -1,0 +1,33 @@
+/* form styles */
+.alert {
+    color: #9b1e0d;
+}
+
+
+form {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #a1c4c4;
+}
+
+h3, h2 {
+    width: 600px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #525655;
+    background-color: #9eb2b2;
+}
+
+input[type=text] {
+  border: 2px solid #0c9b9b;
+  border-radius: 4px;
+}
+
+input[type=reset], input[type=submit] {
+  box-shadow: 1px 1px 3px;
+}
