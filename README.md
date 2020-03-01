@@ -5,16 +5,18 @@ Various projects and applications for practicing HTML, CSS (and SASS) and JS
 
 - [Bootstrap-site](https://kyleslie2.github.io/practicing_html_css_js/bootstrap-site/)
 
-https://kyleslie2.github.io/fonts/
+- [colours](https://kyleslie2.github.io/practicing_html_css_js/colours/)
 
-https://kyleslie2.github.io/navmenu/
+- [fonts](https://kyleslie2.github.io/practicing_html_css_js/fonts/)
 
-https://kyleslie2.github.io/responsive-images/
+- [navmenu](https://kyleslie2.github.io/practicing_html_css_js/navmenu/)
 
-https://kyleslie2.github.io/sass-conversion/
+- [responsive-image](https://kyleslie2.github.io/practicing_html_css_js/responsive-images/)
 
-https://kyleslie2.github.io/Lab7--Event-Handling/
+- [sass-conversion](https://kyleslie2.github.io/practicing_html_css_js/sass-conversion/)
 
-https://kyleslie2.github.io/Lab8--Form-Validation/
+- [Lab7--Event-Handling](https://kyleslie2.github.io/practicing_html_css_js/Lab7--Event-Handling/)
 
-https://kyleslie2.github.io/Lab9--jQuery/
+- [Lab8--Form-Validation](https://kyleslie2.github.io/practicing_html_css_js/Lab8--Form-Validation/)
+
+- [Lab9--jQuery](https://kyleslie2.github.io/practicing_html_css_js/Lab9--jQuery/)
